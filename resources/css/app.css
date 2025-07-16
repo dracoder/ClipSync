@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ClipSync Brand Colors */
+:root {
+    --clip-primary: #5A67D8;
+    --clip-secondary: #E2E8F0;
+    --clip-accent: #48BB78;
+    --clip-neutral: #4A5568;
+}
+
+/* ClipSync Typography */
+.clip-text {
+    font-family: "Inter", "Roboto", "Helvetica", Arial, sans-serif !important;
+    color: var(--clip-primary);
+    font-weight: 700;
+}
+
+.clip-logo {
+    font-family: "Inter", sans-serif;
+    font-size: 21px;
+    position: relative;
+    top: 5px;
+    left: -10px;
+    color: var(--clip-primary);
+    font-weight: 800;
+}
+
+/* Modern Button Styles */
+.btn-clip-primary {
+    background-color: var(--clip-primary);
+    color: white;
+    border: 2px solid var(--clip-primary);
+    font-weight: 600;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.btn-clip-primary:hover {
+    background-color: transparent;
+    color: var(--clip-primary);
+    border-color: var(--clip-primary);
+}
+
+.btn-clip-accent {
+    background-color: var(--clip-accent);
+    color: white;
+    border: 2px solid var(--clip-accent);
+    font-weight: 600;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.btn-clip-accent:hover {
+    background-color: transparent;
+    color: var(--clip-accent);
+    border-color: var(--clip-accent);
+}
+
+/* Clean, minimal styling */
+body, html {
+    font-family: "Inter", "Roboto", "Helvetica", Arial, sans-serif;
+    background-color: #FAFAFA;
+    color: #2D3748;
+}
+
+/* ClipSync brand styles */
+.clip-text {
+    /* ClipSync text styling */
+    font-family: "Inter", "Roboto", "Helvetica", Arial, sans-serif !important;
+    color: var(--clip-primary) !important;
+    font-weight: 700;
+}
+
+.clip-logo {
+    /* ClipSync logo styling */
+    font-family: "Inter", sans-serif !important;
+    font-size: 21px;
+    position: relative;
+    top: 5px;
+    left: -10px;
+    color: var(--clip-primary) !important;
+    font-weight: 800;
+}
+
+/* Modern card styling */
+.clip-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    border: 1px solid #E2E8F0;
+    transition: all 0.3s ease;
+}
+
+.clip-card:hover {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+}

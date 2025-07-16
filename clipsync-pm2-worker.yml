@@ -1,0 +1,15 @@
+apps:
+  - name: clipsync-socket-server
+    interpreter: node@20.15.1
+    script: ./mediasoup-server/server.js
+    instances: 1
+    exec_mode: fork
+    error_file: ./storage/logs/clipsync-socket-server-error.log
+    out_file: ./storage/logs/clipsync-socket-server-out.log
+  - name: clipsync-webrtc-socket-server
+    interpreter: node@20.15.1
+    script: ./socket-server/server.js
+    instances: 1
+    exec_mode: fork
+    error_file: ./storage/logs/clipsync-webrtc-server-error.log
+    out_file: ./storage/logs/clipsync-webrtc-server-out.log
