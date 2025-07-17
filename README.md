@@ -1,11 +1,21 @@
-### ClipSync
+# 🎥 ClipSync
 
-ClipSync is a modern async video recording and sharing platform that revolutionizes how you create and share video content. Record your screen, camera, or both with Loom-style functionality and share instantly with comments and reactions.
+**ClipSync** is a modern async + live video platform that combines Loom-style recording with collaborative video rooms. Record your **screen**, **camera**, or both, then instantly share with **comments**, **reactions**, and now — **live studio video chat**.
 
-**Requirements:**
-- PHP 8.2+
-- FFMPEG & FFPROBE binaries
+---
 
-**Installation:**
-Install FFMPEG on your device and add the paths to your .env file.
-We need both FFMPEG & FFPROBE binaries (usually present in the FFMPEG download).
+## ✨ Key Features
+
+- ✅ **Loom-style async recording** – Screen, webcam, or both
+- ✅ **Instant share links** with viewer reactions and comments
+- ✅ **MP4 output** with FFMPEG encoding
+- ✅ **Studio Mode** – Create a private room and invite others to join a **live video chat**
+- ✅ Multi-user support and session archiving
+- ✅ Modern UI built for productivity and remote teams
+
+---
+
+## 🧑‍💻 Requirements
+
+- **PHP** 8.2 or higher
+- **FFMPEG & FFPROBE** installed on your system
